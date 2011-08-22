@@ -1,6 +1,5 @@
 package com.nhpatt.discount;
 
-import cuke4duke.annotation.Pending;
 import cuke4duke.annotation.I18n.EN.Given;
 import cuke4duke.annotation.I18n.EN.Then;
 import cuke4duke.annotation.I18n.EN.When;
@@ -11,12 +10,10 @@ public class DiscountSteps {
 	public void queHeGastadoEnLaTienda(int amount) {
 	}
 
-	@Pending
 	@When("^hago una compra por un valor de '(\\d+)' euros$")
 	public void hagoUnaCompraPorUnValorDe(int amount) {
 	}
 
-	@Pending
 	@Then("^el precio final es de '(\\d+)' euros$")
 	public void elPrecioFinalEsDe(int amount) {
 	}

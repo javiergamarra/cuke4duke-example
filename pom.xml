@@ -64,7 +64,7 @@
 						<jvmArg>${cucumber.debug}</jvmArg>
 					</jvmArgs>
 					<cucumberArgs>
-						<cucumberArg>${basedir}/target/test-classes --tags ~@wip</cucumberArg>
+						<cucumberArg>${basedir}/target/classes --tags ~@wip</cucumberArg>
 					</cucumberArgs>
 					<gems>
 						<gem>install cuke4duke --version 0.4.2</gem>
